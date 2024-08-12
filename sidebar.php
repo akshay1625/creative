@@ -69,7 +69,7 @@ if($_SESSION['role'] == 1){
         </li>
 
         <li class="sidebar-item">
-          <a class="sidebar-link sidebar-link" href="index3232.php" aria-expanded="false">
+          <a class="sidebar-link sidebar-link" href="creative_search.php" aria-expanded="false">
             <i data-feather="search" class="feather-icon"></i>
             <span class="text-black">Creative Search</span>
           </a>

@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
     $empty = false;
   }
   $password = md5($password);
-
+//this is new
   //write a script to verify user id and pass from data `awt_admin`
   if ($empty) {
     // $query = "";

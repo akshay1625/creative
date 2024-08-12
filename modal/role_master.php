@@ -57,5 +57,3 @@ include('include/role_master.php');
       </div>
     </div>
   </div>
-
-
