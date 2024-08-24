@@ -9,8 +9,8 @@ if($_SESSION['role'] == 1){
   <!-- Sidebar scroll-->
   <div class="scroll-sidebar" data-sidebarbg="skin6">
     <!-- Sidebar navigation-->
-    <nav class="sidebar-nav">
-      <ul id="sidebarnav">
+    <nav class="sidebar-nav pt-0">
+      <ul id="sidebarnav" >
       <li class="list-divider"></li>
         <li class="sidebar-item">
           <a class="sidebar-link sidebar-link" href="dashboard.php" aria-expanded="false">
@@ -34,24 +34,6 @@ if($_SESSION['role'] == 1){
             <span class="text-black">User Master</span>
           </a>
         </li>
-        <li class="sidebar-item">
-          <a class="sidebar-link" href="customer_master_list.php" aria-expanded="false">
-            <i data-feather="briefcase" class="feather-icon"></i>
-            <span class="text-black">Customer Master</span>
-          </a>
-        </li>
-        <!-- <li class="sidebar-item">
-          <a class="sidebar-link" href="project_type.php" aria-expanded="false">
-            <i data-feather="list" class="feather-icon"></i>
-            <span class="text-black">Project Type</span>
-          </a>
-        </li> -->
-        <li class="sidebar-item">
-          <a class="sidebar-link" href="creative_type.php" aria-expanded="false">
-            <i data-feather="image" class="feather-icon"></i>
-            <span class="text-black">Creative Type</span>
-          </a>
-        </li>
         <li class="list-divider"></li>
 
         <li class="sidebar-item">
@@ -68,12 +50,7 @@ if($_SESSION['role'] == 1){
           </a>
         </li>
 
-        <li class="sidebar-item">
-          <a class="sidebar-link sidebar-link" href="creative_search.php" aria-expanded="false">
-            <i data-feather="search" class="feather-icon"></i>
-            <span class="text-black">Creative Search</span>
-          </a>
-        </li>
+       
 
       </ul>
     </nav>
