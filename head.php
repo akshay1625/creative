@@ -21,15 +21,17 @@ include('config.php');
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/users/north-star-logo.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://nsiacademy.org/wp-content/uploads/2024/05/north-star-142x150-1-32x32.png">
     <title>North_</title>
     <!-- Custom CSS -->
     <link href="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
     <!-- Custom CSS -->
     <link href="dist/css/style.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/contents.css">
+<script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/ckeditor.js"></script>
 
-    <style>
+    <style> 
         * {
             margin: 0;
             padding: 0;
