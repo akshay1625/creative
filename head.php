@@ -31,7 +31,7 @@ include('config.php');
     <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/contents.css">
 <script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/ckeditor.js"></script>
 
-    <style> 
+    <style>
         * {
             margin: 0;
             padding: 0;

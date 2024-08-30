@@ -104,7 +104,7 @@ include('loader.php');
 
 <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.bootstrap4.css">
 <link rel="stylesheet" href="dist/css/style.min.css">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
 <div id="main-wrapper" data-theme="light" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
   <?php
   include('sidebar.php');
@@ -125,6 +125,12 @@ include('loader.php');
       "info": false // hide the "Showing 1 to 3 of 3entries" text
     });
   });
+
+  $('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 200
+});
 </script>
 
 
@@ -136,3 +142,5 @@ include('footer.php');
 
 
 </script>
+
+<!-- </body> -->

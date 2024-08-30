@@ -56,7 +56,7 @@ if($_SESSION['role'] == 1){
             <span class="text-black">Educational Partners</span>
           </a>
         </li>
-        
+
         <li class="sidebar-item">
           <a class="sidebar-link" href="#gallerySubmenu" aria-expanded="false" data-toggle="collapse">
             <i data-feather="image" class="feather-icon"></i>
@@ -96,7 +96,7 @@ if($_SESSION['role'] == 1){
         </li>
         <li class="list-divider"></li>
 
-      
+
       </ul>
     </nav>
     <!-- End Sidebar navigation -->
