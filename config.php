@@ -11,7 +11,7 @@ $sql = mysqli_connect("localhost", "root", "", "myproje1_northstar");
 // session_unset();
 // session_destroy();
 include('modal/logout/time.php');
-
+//this is changes
 // >
 
 // echo '<pre>';
